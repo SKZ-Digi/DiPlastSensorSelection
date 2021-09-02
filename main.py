@@ -81,10 +81,7 @@ else:
 
 st.sidebar.write("")
 st.sidebar.write("")
-st.sidebar.write("")
-st.sidebar.write("")
-st.sidebar.write("")
-st.sidebar.write("")
+
 
 
 
