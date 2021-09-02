@@ -88,7 +88,7 @@ st.sidebar.write("")
 SKZ_Logo_html = get_img_with_href('SKZ-Logo.png', 'https://www.skz.de',width="100")
 st.sidebar.markdown(SKZ_Logo_html, unsafe_allow_html=True)
 
-st.sidebar.caption("['Bug reports and suggestions welcome' ]('mailto:c.kugler@skz.de')")
+st.sidebar.caption("[Bug reports and suggestions welcome ](mailto:c.kugler@skz.de)")
 
 #---------------------------------------------columns---------------------------------------------------------------------
 
