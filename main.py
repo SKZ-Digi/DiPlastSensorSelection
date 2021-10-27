@@ -11,7 +11,7 @@ import os
 import base64
 
 from streamlit.state.session_state import SessionState
-st.set_page_config(page_title="Di-Plast Sensor Selection ",layout="centered", page_icon = "favicon.png",)
+st.set_page_config(page_title="Di-Plast Sensor Selection ",layout="wide", page_icon = "favicon.png",)
 #for image rendering with link, magic from https://discuss.streamlit.io/t/href-on-image/9693/4
 @st.cache(allow_output_mutation=True)
 def get_base64_of_bin_file(bin_file):
