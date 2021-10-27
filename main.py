@@ -175,8 +175,6 @@ if(st.session_state['choose_cause']==True):
     st.subheader('Suitable surveillance parameters:​') 
     #if (st.session_state["choose_parameter"]!=True):
     text_please="<p style='color:Blue;font-size: 1 em;'>Please click on parameter to monitor</p>"
-    
-    text_please="<p style='color:Blue;font-size: 1.2 em;'> </p>"
     st.markdown(text_please, unsafe_allow_html=True)
    
 
